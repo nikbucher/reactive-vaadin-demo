@@ -29,7 +29,7 @@ import java.util.Optional;
  */
 @JsModule("./styles/shared-styles.js")
 @CssImport("./styles/views/main/main-view.css")
-@PWA(name = "My Project", shortName = "My Project", enableInstallPrompt = false)
+@PWA(name = "My Project", shortName = "My Project")
 @Push
 public class MainView extends AppLayout {
 

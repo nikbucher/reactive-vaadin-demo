@@ -1,3 +1,19 @@
-/.idea/
+.*
+!.gitignore
+!.gitattributes
+!.editorconfig
+!.mvn/
+
+target/
+out/
+bin/
+
+logs/
+
+# intellij
 *.iml
-/common/target/
+*.ipr
+*.iws
+
+~*
+*.log
